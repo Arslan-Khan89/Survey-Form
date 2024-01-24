@@ -1,8 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    /* background-color: #f4f4f4; */
-    /* background-color: #f0f0f0; */
-    background-color: #add8e6;
+    background-color: #FFBE98;
     margin: 0;
     padding: 0;
 }
@@ -56,4 +54,8 @@ button {
     cursor: pointer;
     background-color: black;
     color: white;
+}
+button:hover{
+    transform: scale(1.1);
+    transition: all 0.4s ease-in-out;
 }
